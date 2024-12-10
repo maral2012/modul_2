@@ -7,7 +7,7 @@ for i in range(len(numbers)):
     is_prime = True
     n = numbers[i]
     if n < 2:  # не 0 и не 1
-        print(n, '- не простое и не сложное число')
+        print(n, '- не простое и не составное число')
         continue
     else:
         f = n ** (1 / 2)
