@@ -6,7 +6,7 @@ i = 0
 for i in range(len(numbers)):
     is_prime = True
     n = numbers[i]
-    if n < 2:  # не 0 и не 1
+    if n < 2:
         print(n, '- не простое и не составное число')
         continue
     else:
